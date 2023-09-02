@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<SectionBackground /> > should render with background dark 1`] = `
+exports[`<SectionBackground /> should render with background dark 1`] = `
 .c1 {
   max-width: 120rem;
   margin: 0 auto;
@@ -13,13 +13,7 @@ exports[`<SectionBackground /> > should render with background dark 1`] = `
   background: #0A1128;
   color: #FFFFFF;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -39,7 +33,7 @@ exports[`<SectionBackground /> > should render with background dark 1`] = `
 </div>
 `;
 
-exports[`<SectionBackground /> > should render with background light 1`] = `
+exports[`<SectionBackground /> should render with background light 1`] = `
 .c1 {
   max-width: 120rem;
   margin: 0 auto;
@@ -50,13 +44,7 @@ exports[`<SectionBackground /> > should render with background light 1`] = `
   background: #FFFFFF;
   color: #0A1128;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -76,7 +64,7 @@ exports[`<SectionBackground /> > should render with background light 1`] = `
 </div>
 `;
 
-exports[`<SectionBackground /> > should render with background light by default 1`] = `
+exports[`<SectionBackground /> should render with background light by default 1`] = `
 .c1 {
   max-width: 120rem;
   margin: 0 auto;
@@ -87,13 +75,7 @@ exports[`<SectionBackground /> > should render with background light by default 
   background: #FFFFFF;
   color: #0A1128;
   min-height: 100vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 

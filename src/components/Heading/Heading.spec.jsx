@@ -3,7 +3,6 @@ import { ThemeProvider } from 'styled-components';
 import { Heading } from '.';
 import { renderTheme } from '../../styles/render-theme';
 import { theme } from '../../styles/theme';
-import { expect, it, describe } from 'vitest';
 
 describe('<Heading />', () => {
   it('should render with default values', () => {
