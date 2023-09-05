@@ -11,18 +11,16 @@ export default function Index({ data = null }) {
 }
 
 export const getStaticProps = async () => {
-
-  let data = null
+  let data = null;
 
   try {
-   data = await loadPages('aqui_slug_da_pagina')
+    data = await loadPages('aqui_slug_da_pagina');
   } catch (e) {
-    if(!data || !data.length)
-    return {
-      notFound: true
-    }
+    if (!data || !data.length)
+      return {
+        notFound: true,
+      };
   }
-
 
   return {
     props: {
