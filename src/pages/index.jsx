@@ -30,5 +30,5 @@ export const getStaticProps = async () => {
 };
 
 Index.propTypes = {
-  data: P.object,
+  data: P.array,
 };

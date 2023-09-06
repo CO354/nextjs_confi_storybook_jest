@@ -14,7 +14,7 @@ function Home({ data }) {
     return <PageNotFound />;
   }
 
-  const { menu, sections, footerHtml, slug, title } = data[0];
+  const { menu, sections, footerHtml, slug } = data[0];
   const { links, text, link, srcImg } = menu;
 
   return (
