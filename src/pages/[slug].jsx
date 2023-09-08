@@ -1,8 +1,16 @@
 import P from 'prop-types';
+import {useRouter} from 'next/router'
 import { loadPages } from '../api/load-pages';
 import Home from '../templates/Home';
+import { Loading } from '../templates/Loading';
 
 export default function Page({ data }) {
+  const router = useRouter();
+
+  if (router.isFallback) {
+    return <Loading />;
+  }
+
   return <Home data={data} />;
 }
 
@@ -20,8 +28,8 @@ export const getStaticPaths = async () => {
   });
 
   return {
-    paths,
-    fallback: false,
+    paths: [{ params: { slug: 'udemy' } }],
+    fallback: true,
   };
 };
 
@@ -44,5 +52,6 @@ export const getStaticProps = async (ctx) => {
     props: {
       data,
     },
+    revalidate: 30,
   };
 };
