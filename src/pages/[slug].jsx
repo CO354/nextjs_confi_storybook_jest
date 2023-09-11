@@ -1,5 +1,5 @@
 import P from 'prop-types';
-import {useRouter} from 'next/router'
+import { useRouter } from 'next/router';
 import { loadPages } from '../api/load-pages';
 import Home from '../templates/Home';
 import { Loading } from '../templates/Loading';
