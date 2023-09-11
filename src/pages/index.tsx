@@ -1,7 +1,7 @@
 import Home from '../templates/Home';
 import { loadPages } from '../api/load-pages';
 import { GetStaticProps } from 'next';
-
+const a = 4;
 export type IndexProps = {
   data: [];
 };
